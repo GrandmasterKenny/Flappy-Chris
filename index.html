@@ -1,0 +1,63 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:og="http://ogp.me/ns#" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<title>Flappy Chris</title>
+<meta property="og:title" content="Flappy Chris">
+<meta property="og:type" content="game">
+<meta property="og:url" content="http://flappychris.design-ninja.net">
+<meta property="og:image" content="http://flappychris.design-ninja.net/img/fb.png">
+<meta property="og:description" content="Flappy Chris is a crazy adventure filled with a ton of inside jokes, obnoxious sound effects and other various humor. Flappy Chris features revolutionary next generation graphics and game play that have never been seen before.">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!-- Not ideal, but fixes double tap zoom issue (for now) -->
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, user-scalable=0" />
+<fb:like href="http://developers.facebook.com/" width="450" height="80">
+<style type="text/css">
+@font-face {
+	font-family: 'Flappy Chris';
+	src: url(fonts/flappy-chris.eot);
+	src: url(fonts/flappy-chris2.eot?#iefix) format('embedded-opentype'), 
+		 url(fonts/flappy-chris.woff) format('woff'), 
+		 url(fonts/flappy-chris.ttf) format('truetype'), 
+		 url(fonts/flappy-chris.svg#04b_19regular) format('svg');
+	font-weight: 400;
+	font-style: normal
+}
+body, html {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	height: 100%;
+	background: #000
+}
+canvas {
+	position: relative;
+	z-index: 1;
+	max-height: 100%;
+	max-width: 100%;
+	height: 100%;
+	width: auto
+}
+#wrap {
+	overflow: hidden;
+	position: relative
+}
+#splash {
+	position: absolute;
+	vertical-align: middle;
+	text-align: center;
+	background: #000 url(img/splash.png) no-repeat center center;
+	background-size: 100%;
+	z-index: 1000
+}
+audio { display: none; }
+</style>
+</head>
+
+<body onLoad="init();">
+<div id="splash"></div>
+<canvas id="flappyChris" width="768" height="1024"></canvas>
+<script src="js/create.min.js"></script> 
+<script src="js/collision.min.js"></script> 
+<script src="js/flappychris.js"></script>
+</body>
+</html>
