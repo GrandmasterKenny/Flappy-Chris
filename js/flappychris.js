@@ -361,7 +361,7 @@ var isEl = function (el) {
 }
 var a = document.getElementById("splash"),
     b = document.getElementById("flappyChris");
-a.style.width = b.offsetWidth;
+a.style.width = b.offsetWidth + 2;
 a.style.height = b.offsetHeight;
 a.style.left = b.offsetLeft;
 setTimeout(function(){
@@ -372,7 +372,7 @@ setTimeout(function () {
 }, 6000);
 if(isEl) {
     window.onresize = function () {
-        a.style.width = b.offsetWidth;
+        a.style.width = b.offsetWidth + 2;
         a.style.height = b.offsetHeight;
         a.style.left = b.offsetLeft;
         setTimeout(function () {
