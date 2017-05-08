@@ -1,4 +1,4 @@
-# [Flappy Chris](http://grandmasterkenny.github.io/flappy-chris/)
+# [Flappy Chris](http://designninjanet.github.io/flappy-chris/)
 
 Flappy Chris is a lazily strung together addictive adventure into the world of community college, philly cheesesteaks, and lobster tails. It is a comical homage to my fellow CTEC students and our instructors.
 
