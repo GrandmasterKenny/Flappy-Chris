@@ -1,6 +1,8 @@
 # [Flappy Chris](http://kennygscott.github.io/flappy-chris/)
 
-Flappy Chris is a lazily strung together addictive adventure into the world of community college, philly cheesesteaks, and lobster tails. It is a comical homage to my fellow CTEC students and our instructors.
+Flappy Chris is a lazily strung together addictive adventure into the world of community college, philly cheesesteaks, and lobster tails. It is a comical homage to my fellow CTEC students and our instructors. 
+
+It is and was done poorly intentionally as part of the joke.
 
 ## Inception
 
